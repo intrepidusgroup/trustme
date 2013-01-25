@@ -1,7 +1,7 @@
 iOS TrustMe
 ===========
 
-An extreme method of disabling most certificate verification checks on iOS applications.
+An extreme method of disabling most certificate verification checks within iOS applications.
 TrustMe will defeat certificate pinning in most cases. 
 
 Description
