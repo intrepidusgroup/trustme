@@ -1,0 +1,9 @@
+Package: com.intrepidusgroup.trustme
+Name: trustme
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: This will shut down the majority of certificiate/trust checks. Good for defeating certificate pinning in applications. 
+Maintainer: Jeremy Allen
+Author: Jeremy Allen
+Section: Tweaks
