@@ -28,10 +28,21 @@ Usage
 ------------
 To disable it, uninstall the deb:
 
-	dpkg -i com.intrepidusgroup.trustme
+	dpkg -r com.intrepidusgroup.trustme
 
 Alternately, you can edit the plist located at /Library/MobileSubstrate/DynamicLibraries/trustme.plist
 
 Documentation on the format of the plist can be found at
 
 	http://iphonedevwiki.net/index.php/MobileSubstrate
+
+
+Build
+-----------
+Building requires theos. 
+
+	http://iphonedevwiki.net/index.php/Theos
+
+This is a Theos 'tweak' project. Use theos to create the required files and then run:
+
+	make
