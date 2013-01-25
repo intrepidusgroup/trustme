@@ -4,3 +4,4 @@ theos
 *.deb
 obj
 _/*
+*.swp
