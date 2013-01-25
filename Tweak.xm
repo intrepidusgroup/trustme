@@ -8,7 +8,7 @@
 OSStatus new_SecTrustEvaluate(SecTrustRef trust, SecTrustResultType *result);
 OSStatus new_SecTrustEvaluate(SecTrustRef trust, SecTrustResultType *result)
 {
-	NSLog(@"Intercepting SecTrustEvaluate Call");
+	NSLog(@"trustme: Intercepting SecTrustEvaluate Call");
 	*result = kSecTrustResultProceed;
 	return errSecSuccess;
 }
