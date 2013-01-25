@@ -13,8 +13,8 @@ will completely disable most SSL safeguards.
 
 Requirements
 ------------
-MobileSubstrate (Should come with jailbroken devices)
-dpkg (Install from Cydia)
+ * MobileSubstrate (Should come with jailbroken devices)
+ * dpkg (Install from Cydia)
 
 Installation
 ------------
