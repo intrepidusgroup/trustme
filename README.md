@@ -46,3 +46,9 @@ Building requires theos.
 This is a Theos 'tweak' project. Use theos to create the required files and then run:
 
 	make
+
+Acknowledgements
+-----------
+This tool is patterned on ios-ssl-kill-switch (https://github.com/iSECPartners/ios-ssl-kill-switch). Trustme 
+uses a similar technique, but target a C function that is lower in the call chain of most SSL certificate
+validation code, which allows it to disable more SSL validation code. 
